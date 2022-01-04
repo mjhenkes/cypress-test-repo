@@ -1,0 +1,7 @@
+{
+  "name": "yarn2test",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "cypress": "^9.2.0"
+  }
+}

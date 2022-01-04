@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  dev:
+    build:
+      context: ./
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/opt/module
+    entrypoint: ["cypress", "run"]
